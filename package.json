@@ -1,0 +1,24 @@
+{
+  "name": "messagingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "nyc ./node_modules/.bin/_mocha 'test/**/*.test.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@testdeck/mocha": "^0.2.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "ts-mockito": "^2.6.1"
+  }
+}
